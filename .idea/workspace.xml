@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da19a99-1a05-4619-8c1f-161971a2da6a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/CasosDePrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CasosDePrueba.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,25 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/lautaro.coria/OneDrive - TSOFT/Escritorio/BootCamp/SeleniumPrimerosPasos&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.CasosDePrueba.CP003_Inicio_sesion_fallido">
+    <configuration name="CasosDePrueba.CP003_Inicio_sesion_fallido" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PruebasSpotifySelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
+      <option name="METHOD_NAME" value="CP003_Inicio_sesion_fallido" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CasosDePrueba.CP004_Registro_Fallido_Mes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PruebasSpotifySelenium" />
       <extension name="coverage">
@@ -50,8 +69,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CasosDePrueba.CP005_Inicio_Sesion_con_Google" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PruebasSpotifySelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
+      <option name="METHOD_NAME" value="CP005_Inicio_Sesion_con_Google" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CasosDePrueba.CP003_Inicio_sesion_fallido" />
+        <item itemvalue="TestNG.CasosDePrueba.CP005_Inicio_Sesion_con_Google" />
         <item itemvalue="TestNG.CasosDePrueba.CP004_Registro_Fallido_Mes" />
       </list>
     </recent_temporary>

@@ -142,11 +142,10 @@ public class CasosDePrueba {
     @Test
     public void CP003_Inicio_sesion_fallido() {
 
-        By localizadorBtnInicio = By.xpath("//*[@id=\"main\"]/div/div[2]/div[1]/header/div[5]/button[2]");
+        By localizadorBtnIniciarSesion = By.xpath("//span[contains(text(),'Iniciar sesión')]");
+        WebElement BtnIniciarSesion = driver.findElement(localizadorBtnIniciarSesion);
 
-        WebElement BtnInicio = driver.findElement(localizadorBtnInicio);
-
-        BtnInicio.click();
+        BtnIniciarSesion.click();
 
 
        //driver.findElement(By.xpath("//*[@id=\"login-username\"]")).sendKeys("lautaro.coria");
@@ -211,7 +210,6 @@ public class CasosDePrueba {
         WebElement btnIniciarSesion = driver.findElement(localizadorBtnIniciarSesion);
 
         btnIniciarSesion.click();
-        //---------------------------------------------------------------------------------------------------------
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-testid='google-login']"))).click();
 
