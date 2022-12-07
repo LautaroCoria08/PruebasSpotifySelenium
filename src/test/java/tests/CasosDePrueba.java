@@ -155,5 +155,58 @@ public class CasosDePrueba {
 
     }
 
+    @Test
+    public void CP004_Registro_Fallido_Mes() throws InterruptedException {
+        System.setProperty(propertyDriver,rutaDriver);
+
+        By localizadorBtnRegistrarse = By.xpath("//button[contains(text(),'Regístrate')]");
+
+        WebElement btnRegistrarse = driver.findElement(localizadorBtnRegistrarse);
+
+        btnRegistrarse.click();
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("email"))).sendKeys("ignacio.marrero@tsoftglobal.com");
+
+        driver.findElement(By.name("confirm")).sendKeys("lautaro.coria@tsoftglobal.com");
+
+        driver.findElement(By.name("password")).sendKeys("123456aQ");
+
+        driver.findElement(By.name("displayname")).sendKeys("Lautaro");
+
+        driver.findElement(By.id("day")).sendKeys("10");
+
+        Select cmbMes = new Select(driver.findElement(By.id("month")));
+
+        cmbMes.selectByValue("");
+
+
+        driver.findElement(By.name("year")).sendKeys("1994");
+
+        WebElement optionMale = driver.findElement(By.xpath("//label[@for='gender_option_male']"));
+
+        js.executeScript("arguments[0].scrollIntoView();", optionMale);
+
+
+        optionMale.click();
+
+        driver.findElement(By.xpath("//label[@for='marketing-opt-checkbox']")).click();
+
+
+        driver.findElement(By.xpath("//label[@for='third-party-checkbox']")).click();
+
+        WebElement btnRegistro  = driver.findElement(By.xpath("//button[@type='submit']"));
+
+        js.executeScript("arguments[0].scrollIntoView();", btnRegistro);
+
+        btnRegistro.click();
+
+        Assert.assertEquals(driver.findElement(By.xpath("//div[@aria-label='Indicador de error']")).getText(),"Selecciona tu mes de nacimiento.");
+    }
+
+
+
+
+
+
 
 }
