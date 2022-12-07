@@ -165,7 +165,7 @@ public class CasosDePrueba {
 
         btnRegistrarse.click();
 
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("email"))).sendKeys("ignacio.marrero@tsoftglobal.com");
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("email"))).sendKeys("lautaro.coria@tsoftglobal.com");
 
         driver.findElement(By.name("confirm")).sendKeys("lautaro.coria@tsoftglobal.com");
 
@@ -201,6 +201,22 @@ public class CasosDePrueba {
         btnRegistro.click();
 
         Assert.assertEquals(driver.findElement(By.xpath("//div[@aria-label='Indicador de error']")).getText(),"Selecciona tu mes de nacimiento.");
+    }
+
+    @Test
+    public void CP005_Inicio_Sesion_con_Google(){
+
+        By localizadorBtnIniciarSesion = By.xpath("//span[contains(text(),'Iniciar sesión')]");
+
+        WebElement btnIniciarSesion = driver.findElement(localizadorBtnIniciarSesion);
+
+        btnIniciarSesion.click();
+        //---------------------------------------------------------------------------------------------------------
+
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//button[@data-testid='google-login']"))).click();
+
+        Assert.assertEquals(driver.getTitle(),"Inicia sesión: Cuentas de Google");
+
     }
 
 
