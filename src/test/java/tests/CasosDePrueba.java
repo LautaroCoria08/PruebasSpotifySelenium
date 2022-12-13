@@ -148,9 +148,7 @@ public class CasosDePrueba {
 
         WebElement btnInicioSesion = driver.findElement(localizadorBtnIniciaSeccion);
 
-        WebElement textoIniciarsesion;
-
-        textoIniciarsesion.click();
+       btnInicioSesion.click();
 
         driver.findElement(By.xpath("//button[@data-testid= 'apple-login']")).click();
 
