@@ -143,10 +143,10 @@ public class CasosDePrueba {
    @Test
     public void CP003_Inicio_Sesion_Apple() throws InterruptedException {
 
-        //By localizadorBtnIniciaSeccion = By.xpath("//span[text() = 'Iniciar sesión']");
-        @FindBy(xpath = "//[contains(@data-testid='apple-login')]");
+        By localizadorBtnIniciaSeccion = By.xpath("//span[text() = 'Iniciar sesión']");
 
-       // WebElement btnInicioSesion = driver.findElement(localizadorBtnIniciaSeccion);
+
+        WebElement btnInicioSesion = driver.findElement(localizadorBtnIniciaSeccion);
 
         WebElement textoIniciarsesion;
 
