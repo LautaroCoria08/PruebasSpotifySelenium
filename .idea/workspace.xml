@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da19a99-1a05-4619-8c1f-161971a2da6a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CasosDePrueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CasosDePrueba.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CPs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BaseClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ejemplosSelenium/ElementosWebSelenium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ejemplosSelenium/EsperasSelenium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ejemplosSelenium/HolaMundoSelenium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ejemplosSelenium/MetodosNavegadorNavegacionSelenium.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,19 +34,57 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IapBFtH8zrTuiUywebZIKjGgrf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/lautaro.coria/OneDrive - TSOFT/Escritorio/BootCamp/SeleniumPrimerosPasos&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/lautaro.coria/OneDrive - TSOFT/Escritorio/DemoFrameworkBC11"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.CasosDePrueba.CP003_Inicio_Sesion_Apple">
+}]]></component>
+  <component name="RunManager" selected="TestNG.CPs.CP002_Registro_Fallido_Mes">
+    <configuration name="CPs.CP002_Inicio_Sesion_Apple" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PruebasSpotifySelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CPs" />
+      <option name="METHOD_NAME" value="CP002_Inicio_Sesion_Apple" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPs.CP002_Registro_Fallido_Mes" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PruebasSpotifySelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CPs" />
+      <option name="METHOD_NAME" value="CP002_Registro_Fallido_Mes" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CasosDePrueba.CP003_Inicio_Sesion_Apple" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PruebasSpotifySelenium" />
       <extension name="coverage">
@@ -68,7 +121,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasosDePrueba.CP005_Inicio_Sesion_con_Google" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CasosDePrueba.CP004_Registro_Fallido_Mes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PruebasSpotifySelenium" />
       <extension name="coverage">
         <pattern>
@@ -78,43 +131,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP005_Inicio_Sesion_con_Google" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CasosDePrueba.CP006_Inicio_Sesion_con_Facebook" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PruebasSpotifySelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP006_Inicio_Sesion_con_Facebook" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CasosDePrueba.CP007_Contraseña_Corta" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PruebasSpotifySelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP007_Contraseña_Corta" />
+      <option name="METHOD_NAME" value="CP004_Registro_Fallido_Mes" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CPs.CP002_Registro_Fallido_Mes" />
+        <item itemvalue="TestNG.CasosDePrueba.CP004_Registro_Fallido_Mes" />
+        <item itemvalue="TestNG.CPs.CP002_Inicio_Sesion_Apple" />
         <item itemvalue="TestNG.CasosDePrueba.CP003_Inicio_Sesion_Apple" />
         <item itemvalue="TestNG.CasosDePrueba.CP004_Inicio_Seccion_Apple" />
-        <item itemvalue="TestNG.CasosDePrueba.CP007_Contraseña_Corta" />
-        <item itemvalue="TestNG.CasosDePrueba.CP006_Inicio_Sesion_con_Facebook" />
-        <item itemvalue="TestNG.CasosDePrueba.CP005_Inicio_Sesion_con_Google" />
       </list>
     </recent_temporary>
   </component>
