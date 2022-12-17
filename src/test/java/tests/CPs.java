@@ -1,5 +1,6 @@
 package tests;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -28,37 +29,34 @@ public class CPs {
         homePage.maximizarBrowser();
     }
 
-
     @Test
-public void  CP002_Inicio_Sesion_Apple(){
+    public void  CP001_Inicio_Sesion_Apple(){
         homePage.irAInicioSesion();
         homePage.irAInicioApple();
-
-
-
     }
-
     @Test
     public void CP002_Registro_Fallido_Mes(){
         homePage.irARegistrarte();
-        registerPage.completarFormularioRegistro("lautaro.coria@tsoftgloblal.com","lautaro.coria@tsoftgloblal.com","1234","Lautaro","08","10","1998");
-        Assert.assertEquals("Confirma que no eres un robot.",registerPage.obtenerErrorCaptchaVacio());
-
-
+        registerPage.completarFormularioRegistro("lautaro.coria@tsoftgloblal.com","lautaro.coria@tsoftgloblal.com","1234","Lautaro","08","","1998");
+        Assert.assertEquals("Selecciona tu mes de nacimiento",registerPage.obtenerErrorMesFallido());
     }
-
+    @Test
+    public void CP003_Inicio_Sesion_con_Google(){
+        homePage.irAInicioSesion();
+        homePage.irAInicioGoogle();
+    }
+    @Test
+     public void CP004_Inicio_Sesion_con_Facebook() {
+        homePage.irAInicioSesion();
+        homePage.irAInicioFacebook();
+    }
     @Test
     public void CP005_Contraseña_Corta(){
         homePage.irARegistrarte();
-        registerPage.completarFormularioRegistro("","","12","","","","");
-        //Assert.assertEquals("Contraseña Corta",registerPage.());
+        registerPage.completarFormularioRegistro("lautaro.coria@tsoftglobal.com", "lautaro.coria@tsoftglobal.com", "1", "Lautaro", "08", "Abril", "1998");
 
+        Assert.assertEquals("Tu contraseña es demasiado corta.",registerPage.obtenerErrorPasswordCorta());
     }
-
-
-
-
-
 
     @AfterMethod
     public void posTests(){

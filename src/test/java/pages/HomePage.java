@@ -16,6 +16,9 @@ public class HomePage extends BaseClass {
     By locatorBtnRegistrarte = By.xpath("//button[contains(text(),'Registrarte')]");
     By locatorBtnInicioSesion = By.xpath("//span[text() = 'Iniciar sesión']");
     By locatorBtnInicioApple = By.xpath("//button[@data-testid= 'apple-login']");
+    By locatorBtnInicioGoogle= By.xpath("//button[@data-testid='google-login']");
+
+    By locartorBtnInicioFacebook= By.xpath("//button[@data-testid='facebook-login']");
 
 
     //Acciones
@@ -23,6 +26,9 @@ public class HomePage extends BaseClass {
         click(esperarAElementoWeb(locatorBtnRegistrarte));
     }
     public void irAInicioSesion(){ click(esperarAElementoWeb(locatorBtnInicioSesion));}
-
     public void irAInicioApple(){click(esperarAElementoWeb(locatorBtnInicioApple));}
+    public void irAInicioGoogle(){click(esperarAElementoWeb(locatorBtnInicioGoogle));}
+    public void irAInicioFacebook(){click(esperarAElementoWeb(locartorBtnInicioFacebook));}
+
+
 }

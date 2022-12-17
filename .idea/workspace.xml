@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5da19a99-1a05-4619-8c1f-161971a2da6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/CPs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ejemplosSelenium/ElementosWebSelenium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ejemplosSelenium/EsperasSelenium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ejemplosSelenium/HolaMundoSelenium.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ejemplosSelenium/MetodosNavegadorNavegacionSelenium.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/RegisterPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/CPs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/CPs.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,32 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/lautaro.coria/OneDrive - TSOFT/Escritorio/DemoFrameworkBC11"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lautaro.coria/OneDrive - TSOFT/Escritorio/DemoFrameworkBC11&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.CPs.CP002_Registro_Fallido_Mes">
-    <configuration name="CPs.CP002_Inicio_Sesion_Apple" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="PruebasSpotifySelenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CPs" />
-      <option name="METHOD_NAME" value="CP002_Inicio_Sesion_Apple" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CPs.CP002_Registro_Fallido_Mes" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PruebasSpotifySelenium" />
       <extension name="coverage">
@@ -85,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasosDePrueba.CP003_Inicio_Sesion_Apple" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CPs.CP004_Inicio_Sesion_con_Facebook" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PruebasSpotifySelenium" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +71,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP003_Inicio_Sesion_Apple" />
+      <option name="MAIN_CLASS_NAME" value="tests.CPs" />
+      <option name="METHOD_NAME" value="CP004_Inicio_Sesion_con_Facebook" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -103,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CasosDePrueba.CP004_Inicio_Seccion_Apple" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CPs.CP005_Contraseña_Corta" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PruebasSpotifySelenium" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +89,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CasosDePrueba" />
-      <option name="METHOD_NAME" value="CP004_Inicio_Seccion_Apple" />
+      <option name="MAIN_CLASS_NAME" value="tests.CPs" />
+      <option name="METHOD_NAME" value="CP005_Contraseña_Corta" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CPs.CP005_Inicio_Sesion_con_Google" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PruebasSpotifySelenium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CPs" />
+      <option name="METHOD_NAME" value="CP005_Inicio_Sesion_con_Google" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,10 +137,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.CPs.CP002_Registro_Fallido_Mes" />
+        <item itemvalue="TestNG.CPs.CP005_Contraseña_Corta" />
+        <item itemvalue="TestNG.CPs.CP004_Inicio_Sesion_con_Facebook" />
+        <item itemvalue="TestNG.CPs.CP005_Inicio_Sesion_con_Google" />
         <item itemvalue="TestNG.CasosDePrueba.CP004_Registro_Fallido_Mes" />
-        <item itemvalue="TestNG.CPs.CP002_Inicio_Sesion_Apple" />
-        <item itemvalue="TestNG.CasosDePrueba.CP003_Inicio_Sesion_Apple" />
-        <item itemvalue="TestNG.CasosDePrueba.CP004_Inicio_Seccion_Apple" />
       </list>
     </recent_temporary>
   </component>
